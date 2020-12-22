@@ -1,0 +1,191 @@
+
+html,body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+    
+}
+
+.padding{
+    padding: 20px;
+}
+
+.formEditPerf{
+	margin-top: 50px;
+}
+
+/*style logo (head)*/
+#logo {
+    text-align: center;
+   	margin-top: 20px;
+}
+
+#frase {
+    font-weight: 600;
+    font-size: 25px;
+    color: #004680;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 1.5px 1.5px 0px #6699ff;
+}
+
+	
+.background{
+	background-image: url("../images/health.png");
+	background-size : cover;
+}
+
+.indicadores {
+	margin-top: 50px;
+
+}
+
+
+#indicadores-text{
+	font-weight: 490;
+}
+
+
+/*style ficha cadastro*/
+.centraliza-button {
+    text-align: center;
+}
+
+#escolhe-genero {
+    margin-left: 50px;
+}
+
+.form-peq {
+    max-width: 250px;
+}
+
+
+/*style navbar*/
+.navbar-light{
+    background-color: white !important;
+    padding: 0px;
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+}
+
+
+.nav-link{
+    font-size: 22px;
+
+}
+
+/*style tabelas*/
+.topo {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.fas {
+    padding: 7px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.table-wrap{
+    overflow-x: auto;
+}
+
+.icon-edit{
+    font-size: 20px;
+}
+
+.icon-delete{
+    font-size: 20px;
+}
+
+
+/*style dashboard*/
+.jumbotron {
+    padding: 0px;
+    border-radius: 0;
+}
+
+hr.dark{
+    border-top: 1px solid #222;
+    width: 50%;
+}
+
+.fa-clock{
+    font-size: 95px;
+    margin: 20px;
+    color: #2163af;
+}
+
+.fa-ruler{
+    color: #ffcc00;
+}
+
+.fa-balance-scale{
+    color: #32c12c;
+}
+
+.fa-heartbeat{
+    color: #bb0000;
+}
+
+.fa-dumbbell{
+	color: #2163af;
+}
+
+.fa-ruler, .fa-balance-scale, .fa-dumbbell, .fa-heartbeat{
+    font-size: 50px;
+    margin: 20px;
+}
+
+
+
+/*style botão fixo*/
+.add-ref {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*style logout*/
+#frase-logout {
+    font-size: 27px;
+    color: #222;
+    margin-top: 120px;
+}
+
+footer {
+  padding: 1rem 2rem 1rem;
+  font-size: 1.0rem;
+}
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer a,
+.socket a {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover,
+.socket a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.socket {
+  background-color: #444444;
+  border-top: .1rem solid gray;
+}
+
+.bg-light{
+	width: auto;
+}
